@@ -6,7 +6,7 @@ public class Day5 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(new File("day5.txt"));
 
-        boolean[][] adj = new boolean[400][400];
+        boolean[][] adj = new boolean[100][100];
         while (sc.hasNextLine()) {
             String line = sc.nextLine();
             if (line.isEmpty())
