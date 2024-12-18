@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Day1 {
+public class Day01 {
     public static void main(String[] args) throws FileNotFoundException {
         Scanner sc = new Scanner(new File("day1.txt"));
         ArrayList<Integer> a = new ArrayList<>();
